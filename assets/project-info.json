@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "proj_name": "Michyrussel",
+        "proj_cover": "assets/img/Michyrussel.jpg",
+        "proj_about": "Simulates an e-retailer site where a user can view, filter through, add/remove items from bag, and finally purchase items. This was built without backend functionality. Everything works solely on React. This is a personal project which showcases my ability to build a full React site with multiple functionalities from scratch.\n\nTools: HTML, CSS, Sass, JavaScript, React",
+        "proj_link": "https://brent-michyrussel.netlify.app/",
+        "git_link": "https://github.com/brentbagapuro/Michyrussel",
+        "proj_samples": [
+            "./../assets/img/Michyrussel1.png",
+            "./../assets/img/Michyrussel2.png"
+        ],
+        "resp_samples": [
+            "./../assets/img/Michyrussel-resp1.png",
+            "./../assets/img/Michyrussel-resp2.png"
+        ]
+    },
+    {
+        "id": 2,
+        "proj_name": "Pokemon List",
+        "proj_cover": "assets/img/Pokelist.jpg",
+        "proj_about": "Displays Pokemon and their data retrieved from PokeAPI. This is a personal project to showcase my ability to consume APIs.\n\nTools: HTML, CSS, Sass, JavaScript, React",
+        "proj_link": "https://brent-pokemonlist.netlify.app/",
+        "git_link": "https://github.com/brentbagapuro/Pokemon-List",
+        "proj_samples": [
+            "./../assets/img/Pokelist1.png",
+            "./../assets/img/Pokelist2.png"
+        ],
+        "resp_samples": [
+            "./../assets/img/Pokelist-resp1.png",
+            "./../assets/img/Pokelist-resp2.png"
+        ]
+    },
+    {
+        "id": 3,
+        "proj_name": "Grind",
+        "proj_cover": "assets/img/Grind.jpg",
+        "proj_about": "A business site which displays the services and assets of a makeshift gym. Designed to encourage potential customers to submit a form and register for a gym membership. This is a personal project to showcase my ability to design an SPA from scratch.\n\nTools: HTML, CSS, Sass, JavaScript",
+        "proj_link": "https://brent-grind.netlify.app/",
+        "git_link": "https://github.com/brentbagapuro/Grind",
+        "proj_samples": [
+            "./../assets/img/Grind1.png",
+            "./../assets/img/Grind2.png"
+        ],
+        "resp_samples": [
+            "./../assets/img/Grind-resp1.png",
+            "./../assets/img/Grind-resp2.png"
+        ]
+    }
+]

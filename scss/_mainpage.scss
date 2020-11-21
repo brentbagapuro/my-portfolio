@@ -1,0 +1,72 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  a {
+    color: white;
+  }
+
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+
+    p {
+      transform: translate(-50%);
+      text-align: center;
+      width: 10rem;
+    }
+
+    &-icon {
+      height: 50px;
+      width: 30px;
+      border: 2px solid white;
+      border-radius: 50px;
+      transform: translate(-50%);
+      margin-top: 1em;
+      cursor: pointer;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        border: 2px solid white;
+        height: 10px;
+        width: 10px;
+        transform: translate(-50%, -100%) rotate(45deg);
+        border-top: transparent;
+        border-left: transparent;
+        animation: scroll-down 1s ease-in-out infinite;
+      }
+
+      &::after {
+        top: 20%;
+        animation-delay: 0.3s;
+      }
+
+      @keyframes scroll-down {
+        0% {
+          opacity: 0;
+        }
+        30% {
+          opacity: 1;
+        }
+        60% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+          top: 90%;
+        }
+      }
+    }
+  }
+}

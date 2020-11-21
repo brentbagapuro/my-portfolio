@@ -1,0 +1,20 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .quote {
+    display: flex;
+    margin-top: 1em;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  .credits {
+    text-align: center;
+    margin-top: 1em;
+  }
+}

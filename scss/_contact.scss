@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      padding: 0;
+      margin: 0.5em 0;
+    }
+
+    * {
+      margin-bottom: 1em;
+      font-size: 18px;
+      padding: 0.5em;
+      width: 100%;
+    }
+
+    #input-submit {
+      padding: 0.5em;
+      background-color: rgb(44, 172, 181);
+      border: 1px solid rgb(44, 173, 182);
+      border-radius: 10px;
+      color: white;
+
+      &:hover {
+        background-color: rgb(48, 194, 204);
+        cursor: pointer;
+      }
+    }
+  }
+}

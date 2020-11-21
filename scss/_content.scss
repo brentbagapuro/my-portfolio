@@ -1,0 +1,168 @@
+.content {
+  display: flex;
+
+  .me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    padding: 2em;
+    left: 0;
+    z-index: 1;
+
+    i {
+      width: 1.2rem;
+      margin-right: 0.4em;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      margin-bottom: 0.5em;
+    }
+
+    .asset-links {
+      padding: 0.5em;
+      background-color: rgb(44, 172, 181);
+      border: 1px solid rgb(44, 173, 182);
+      border-radius: 10px;
+
+      &:hover {
+        background-color: rgb(48, 194, 204);
+      }
+    }
+  }
+
+  .navigation {
+    position: fixed;
+    padding: 2em;
+    right: 0;
+    z-index: 1;
+
+    ul li {
+      list-style: none;
+      margin-bottom: 1em;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .fullpage {
+    flex: 1;
+    margin: 0 15em;
+    z-index: 1;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    .me,
+    .navigation {
+      display: none;
+    }
+
+    .fullpage {
+      margin: 0 2em !important;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      padding: 1em;
+      width: 100%;
+      z-index: 999;
+      background-color: rgba(0, 0, 0, 0.75);
+
+      .logo {
+        a {
+          color: white;
+          text-decoration: none;
+        }
+      }
+
+      nav {
+        display: none;
+        justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        right: 1em;
+        top: 4em;
+        background-color: rgba(0, 0, 0, 0.75);
+
+        .nav-links {
+          display: flex;
+          flex-direction: column;
+          margin-left: 2em;
+
+          i {
+            width: 1.2rem;
+            margin-right: 0.4em;
+          }
+
+          a {
+            color: white;
+            text-decoration: none;
+            margin-bottom: 0.5em;
+          }
+
+          .asset-links {
+            padding: 0.5em;
+            background-color: rgb(44, 173, 182);
+            border: 1px solid rgb(44, 173, 182);
+            border-radius: 10px;
+          }
+        }
+
+        ul {
+          li {
+            list-style: none;
+            text-align: end;
+            margin-bottom: 1em;
+
+            a {
+              color: white;
+              text-decoration: none;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+
+      .burger {
+        .line {
+          display: block;
+          width: 2em;
+          height: 4px;
+          background-color: white;
+          border-radius: 2px;
+        }
+
+        #line1 {
+          margin-bottom: 5px;
+        }
+
+        #line3 {
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+.show {
+  display: flex !important;
+}

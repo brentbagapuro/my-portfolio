@@ -1,0 +1,45 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .about-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2em;
+
+    .skills {
+      margin-top: 2em;
+
+      &-tools {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        img {
+          margin: 1em;
+          width: 4.5rem;
+          max-height: 3.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutme {
+    .about-content {
+      .skills {
+        margin-top: 1em;
+
+        &-tools {
+          img {
+            margin: 1em;
+            width: 4rem;
+            max-height: 3rem;
+          }
+        }
+      }
+    }
+  }
+}
