@@ -7,12 +7,12 @@
         "proj_link": "https://brent-michyrussel.netlify.app/",
         "git_link": "https://github.com/brentbagapuro/Michyrussel",
         "proj_samples": [
-            "./../assets/img/Michyrussel1.png",
-            "./../assets/img/Michyrussel2.png"
+            "./assets/img/Michyrussel1.png",
+            "./assets/img/Michyrussel2.png"
         ],
         "resp_samples": [
-            "./../assets/img/Michyrussel-resp1.png",
-            "./../assets/img/Michyrussel-resp2.png"
+            "./assets/img/Michyrussel-resp1.png",
+            "./assets/img/Michyrussel-resp2.png"
         ]
     },
     {
@@ -23,12 +23,12 @@
         "proj_link": "https://brent-pokemonlist.netlify.app/",
         "git_link": "https://github.com/brentbagapuro/Pokemon-List",
         "proj_samples": [
-            "./../assets/img/Pokelist1.png",
-            "./../assets/img/Pokelist2.png"
+            "./assets/img/Pokelist1.png",
+            "./assets/img/Pokelist2.png"
         ],
         "resp_samples": [
-            "./../assets/img/Pokelist-resp1.png",
-            "./../assets/img/Pokelist-resp2.png"
+            "./assets/img/Pokelist-resp1.png",
+            "./assets/img/Pokelist-resp2.png"
         ]
     },
     {
@@ -39,12 +39,12 @@
         "proj_link": "https://brent-grind.netlify.app/",
         "git_link": "https://github.com/brentbagapuro/Grind",
         "proj_samples": [
-            "./../assets/img/Grind1.png",
-            "./../assets/img/Grind2.png"
+            "./assets/img/Grind1.png",
+            "./assets/img/Grind2.png"
         ],
         "resp_samples": [
-            "./../assets/img/Grind-resp1.png",
-            "./../assets/img/Grind-resp2.png"
+            "./assets/img/Grind-resp1.png",
+            "./assets/img/Grind-resp2.png"
         ]
     }
 ]
